@@ -17,7 +17,7 @@ app.use(
     cors({
         origin:
             process.env.NODE_ENV === "production"
-                ? "https://your-production-domain.com" // Replace with your production domain
+                ? "https://table-booking-vaibhav-mishras-projects-d7164fe4.vercel.app/" // Replace with your production domain
                 : "http://localhost:3000", // For local development
         methods: ["GET", "POST", "DELETE", "PUT"],
         credentials: true,
