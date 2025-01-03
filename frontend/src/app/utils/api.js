@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create an Axios instance with a base URL
 const api = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api/v1/table/',
+  baseURL: https://table-booking-api.vercel.app/ || 'http://localhost:8000/api/v1/table/',
   headers: {
     'Content-Type': 'application/json',
   },
